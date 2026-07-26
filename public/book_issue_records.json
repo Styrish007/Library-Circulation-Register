@@ -1,0 +1,1002 @@
+[
+    {
+      "issue_id": "ISS-1001",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Jonathon A. Smith",
+      "issue_date": "2026-06-13",
+      "due_date": "2026-06-27",
+      "return_date": "2026-06-22",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1002",
+      "book_id": "BK-105",
+      "title": "The Catcher in the Rye",
+      "member_name": "Sarah M. Connor",
+      "issue_date": "2026-02-27",
+      "due_date": "2026-03-13",
+      "return_date": "2026-03-18",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1003",
+      "book_id": "BK-119",
+      "title": "The Picture of Dorian Gray",
+      "member_name": "Patricia E. Jackson",
+      "issue_date": "2026-01-23",
+      "due_date": "2026-02-06",
+      "return_date": "2026-01-27",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1004",
+      "book_id": "BK-108",
+      "title": "Moby-Dick",
+      "member_name": "Daniel V. Clark",
+      "issue_date": "2026-02-25",
+      "due_date": "2026-03-11",
+      "return_date": "2026-03-16",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1005",
+      "book_id": "BK-118",
+      "title": "Dracula",
+      "member_name": "Patricia E. Jackson",
+      "issue_date": "2026-02-20",
+      "due_date": "2026-03-06",
+      "return_date": "2026-03-12",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1006",
+      "book_id": "BK-101",
+      "title": "To Kill a Mockingbird",
+      "member_name": "Emily L. Davis",
+      "issue_date": "2026-03-13",
+      "due_date": "2026-03-27",
+      "return_date": "2026-03-25",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1007",
+      "book_id": "BK-105",
+      "title": "The Catcher in the Rye",
+      "member_name": "David K. Miller",
+      "issue_date": "2026-03-13",
+      "due_date": "2026-03-27",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1008",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Sara M. Connor",
+      "issue_date": "2026-03-28",
+      "due_date": "2026-04-11",
+      "return_date": "2026-04-10",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1009",
+      "book_id": "BK-120",
+      "title": "Les Mis\u00e9rables",
+      "member_name": "James P. Wilson",
+      "issue_date": "2026-03-30",
+      "due_date": "2026-04-13",
+      "return_date": "2026-04-15",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1010",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "William S. Thomas",
+      "issue_date": "2026-05-18",
+      "due_date": "2026-06-01",
+      "return_date": "2026-05-29",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1011",
+      "book_id": "BK-120",
+      "title": "Les Mis\u00e9rables",
+      "member_name": "Linda H. Anderson",
+      "issue_date": "2026-06-10",
+      "due_date": "2026-06-24",
+      "return_date": "2026-06-14",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1012",
+      "book_id": "BK-108",
+      "title": "Moby-Dick",
+      "member_name": "Amanda B. White",
+      "issue_date": "2026-01-12",
+      "due_date": "2026-01-26",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1013",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "William S. Thomas",
+      "issue_date": "2026-03-01",
+      "due_date": "2026-03-15",
+      "return_date": "2026-03-14",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1014",
+      "book_id": "BK-112",
+      "title": "Crime and Punishment",
+      "member_name": "Linda H. Anderson",
+      "issue_date": "2026-02-11",
+      "due_date": "2026-02-25",
+      "return_date": "2026-02-21",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1015",
+      "book_id": "BK-103",
+      "title": null,
+      "member_name": "Jennifer Walker",
+      "issue_date": "2026-06-29",
+      "due_date": "2026-07-13",
+      "return_date": null,
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1016",
+      "book_id": "BK-106",
+      "title": "The Hobbit",
+      "member_name": "Christopher Lee",
+      "issue_date": "2026-03-04",
+      "due_date": "2026-03-18",
+      "return_date": "2026-03-23",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1017",
+      "book_id": "BK-111",
+      "title": "Brave New World",
+      "member_name": "Jonathan A. Smith",
+      "issue_date": "2026-02-26",
+      "due_date": "2026-03-12",
+      "return_date": "2026-03-01",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1018",
+      "book_id": "BK-113",
+      "title": "The Lord of the Rings",
+      "member_name": "James P. Wilson",
+      "issue_date": "2026-03-22",
+      "due_date": "2026-04-05",
+      "return_date": "2026-04-11",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1019",
+      "book_id": "BK-107",
+      "title": "Fahrenheit 451",
+      "member_name": "Barbara D. Harris",
+      "issue_date": "2026-03-22",
+      "due_date": "2026-04-05",
+      "return_date": "2026-04-07",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1020",
+      "book_id": "BK-109",
+      "title": "War and Peace",
+      "member_name": "Michael R. Johnson",
+      "issue_date": "2026-02-06",
+      "due_date": "2026-02-20",
+      "return_date": "2026-02-25",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1021",
+      "book_id": "BK-109",
+      "title": "War and Peace",
+      "member_name": "Matthew Robinson",
+      "issue_date": "2026-05-18",
+      "due_date": "2026-06-01",
+      "return_date": "2026-06-07",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1022",
+      "book_id": "BK-112",
+      "title": "Crime and Punishment",
+      "member_name": "Jessica Taylor",
+      "issue_date": "2026-04-13",
+      "due_date": "2026-04-27",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1023",
+      "book_id": "BK-117",
+      "title": "Frankenstein",
+      "member_name": "Barbara D. Harris",
+      "issue_date": "2026-02-05",
+      "due_date": "2026-02-19",
+      "return_date": "2026-02-08",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1024",
+      "book_id": "BK-105",
+      "title": "The Catcher in the Rye",
+      "member_name": "Emily L. Davis",
+      "issue_date": "2026-01-29",
+      "due_date": "2026-02-12",
+      "return_date": "2026-02-13",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1025",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "William S. Thomas",
+      "issue_date": "2026-06-02",
+      "due_date": "2026-06-16",
+      "return_date": "2026-06-18",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1026",
+      "book_id": "BK-109",
+      "title": "War and Peace",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-05-16",
+      "due_date": "2026-05-30",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1027",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-01-03",
+      "due_date": "2026-01-17",
+      "return_date": "2026-01-15",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1028",
+      "book_id": "BK-110",
+      "title": "The Odyssey",
+      "member_name": "Patricia E. Jackson",
+      "issue_date": "2026-01-29",
+      "due_date": "2026-02-12",
+      "return_date": "2026-01-31",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1029",
+      "book_id": "BK-117",
+      "title": "Frankenstein",
+      "member_name": "Jonathon A. Smith",
+      "issue_date": "2026-03-09",
+      "due_date": "2026-03-23",
+      "return_date": "2026-03-14",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1030",
+      "book_id": "BK-110",
+      "title": "The Odyssey",
+      "member_name": "Jonathan A. Smith",
+      "issue_date": "2026-06-10",
+      "due_date": "2026-06-24",
+      "return_date": "2026-06-16",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1031",
+      "book_id": "BK-106",
+      "title": "The Hobbit",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-04-06",
+      "due_date": "2026-04-20",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1032",
+      "book_id": "BK-101",
+      "title": "To Kill a Mockingbird",
+      "member_name": "Jennifer Walker",
+      "issue_date": "2026-05-16",
+      "due_date": "2026-05-30",
+      "return_date": "2026-05-18",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1033",
+      "book_id": "BK-112",
+      "title": "Crime and Punishment",
+      "member_name": "Amanda B. White",
+      "issue_date": "2026-01-29",
+      "due_date": "2026-02-12",
+      "return_date": "2026-02-07",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1034",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "Sara M. Connor",
+      "issue_date": "2026-05-26",
+      "due_date": "2026-06-09",
+      "return_date": "2026-05-30",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1035",
+      "book_id": "BK-105",
+      "title": "The Catcher in the Rye",
+      "member_name": "Michael R. Johnson",
+      "issue_date": "2026-05-17",
+      "due_date": "2026-05-31",
+      "return_date": "2026-06-05",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1036",
+      "book_id": "BK-109",
+      "title": "War and Peace",
+      "member_name": "Daniel V. Clark",
+      "issue_date": "2026-02-12",
+      "due_date": "2026-02-26",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1037",
+      "book_id": "BK-107",
+      "title": "Fahrenheit 451",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-04-19",
+      "due_date": "2026-05-03",
+      "return_date": "2026-04-27",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1038",
+      "book_id": "BK-113",
+      "title": "The Lord of the Rings",
+      "member_name": "Linda H. Anderson",
+      "issue_date": "2026-03-21",
+      "due_date": "2026-04-04",
+      "return_date": "2026-04-08",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1039",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Jessica Taylor",
+      "issue_date": "2026-04-26",
+      "due_date": "2026-05-10",
+      "return_date": "2026-05-08",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1040",
+      "book_id": "BK-119",
+      "title": "The Picture of Dorian Gray",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-01-06",
+      "due_date": "2026-01-20",
+      "return_date": "2026-01-15",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1041",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "Jonathan A. Smith",
+      "issue_date": "2026-01-02",
+      "due_date": "2026-01-16",
+      "return_date": "2026-01-05",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1042",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "Daniel V. Clark",
+      "issue_date": "2026-03-26",
+      "due_date": "2026-04-09",
+      "return_date": "2026-04-12",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1043",
+      "book_id": "BK-118",
+      "title": "Dracula",
+      "member_name": "Michael R. Johnson",
+      "issue_date": "2026-02-24",
+      "due_date": "2026-03-10",
+      "return_date": "2026-03-16",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1044",
+      "book_id": "BK-116",
+      "title": "One Hundred Years of Solitude",
+      "member_name": "Jessica Taylor",
+      "issue_date": "2026-05-28",
+      "due_date": "2026-06-11",
+      "return_date": "2026-06-12",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1045",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Sarah M. Connor",
+      "issue_date": "2026-02-18",
+      "due_date": "2026-03-04",
+      "return_date": "2026-03-03",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1046",
+      "book_id": "BK-114",
+      "title": "Jane Eyre",
+      "member_name": "Sara M. Connor",
+      "issue_date": "2026-04-19",
+      "due_date": "2026-05-03",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1047",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Sarah M. Connor",
+      "issue_date": "2026-01-14",
+      "due_date": "2026-01-28",
+      "return_date": "2026-01-26",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1048",
+      "book_id": "BK-108",
+      "title": "Moby-Dick",
+      "member_name": "David K. Miller",
+      "issue_date": "2026-01-28",
+      "due_date": "2026-02-11",
+      "return_date": "2026-02-13",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1049",
+      "book_id": "BK-114",
+      "title": "Jane Eyre",
+      "member_name": "Emily L. Davis",
+      "issue_date": "2026-02-05",
+      "due_date": "2026-02-19",
+      "return_date": "2026-02-14",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1050",
+      "book_id": "BK-115",
+      "title": "Wuthering Heights",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-01-20",
+      "due_date": "2026-02-03",
+      "return_date": "2026-02-08",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1051",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "Jessica Taylor",
+      "issue_date": "2026-01-04",
+      "due_date": "2026-01-18",
+      "return_date": "2026-01-21",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1052",
+      "book_id": "BK-107",
+      "title": "Fahrenheit 451",
+      "member_name": "William S. Thomas",
+      "issue_date": "2026-05-04",
+      "due_date": "2026-05-18",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1053",
+      "book_id": "BK-113",
+      "title": "The Lord of the Rings",
+      "member_name": "Jonathon A. Smith",
+      "issue_date": "2026-02-12",
+      "due_date": "2026-02-26",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1054",
+      "book_id": "BK-115",
+      "title": "Wuthering Heights",
+      "member_name": "Amanda B. White",
+      "issue_date": "2026-03-09",
+      "due_date": "2026-03-23",
+      "return_date": "2026-03-28",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1055",
+      "book_id": "BK-116",
+      "title": "One Hundred Years of Solitude",
+      "member_name": "Michael R. Johnson",
+      "issue_date": "2026-06-19",
+      "due_date": "2026-07-03",
+      "return_date": null,
+      "status": "Issued"
+    },
+    {
+      "issue_id": "ISS-1056",
+      "book_id": "BK-102",
+      "title": "1984",
+      "member_name": "Matthew Robinson",
+      "issue_date": "2026-02-25",
+      "due_date": "2026-03-11",
+      "return_date": "2026-02-28",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1057",
+      "book_id": "BK-102",
+      "title": "1984",
+      "member_name": "Jonathan A. Smith",
+      "issue_date": "2026-03-22",
+      "due_date": "2026-04-05",
+      "return_date": "2026-04-09",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1058",
+      "book_id": "BK-106",
+      "title": "The Hobbit",
+      "member_name": "Jonathan A. Smith",
+      "issue_date": "2026-05-16",
+      "due_date": "2026-05-30",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1059",
+      "book_id": "BK-106",
+      "title": "The Hobbit",
+      "member_name": "Sara M. Connor",
+      "issue_date": "2026-01-21",
+      "due_date": "2026-02-04",
+      "return_date": "2026-01-30",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1060",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Matthew Robinson",
+      "issue_date": "2026-04-14",
+      "due_date": "2026-04-28",
+      "return_date": "2026-04-17",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1061",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "Patricia E. Jackson",
+      "issue_date": "2026-06-08",
+      "due_date": "2026-06-22",
+      "return_date": "2026-06-28",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1062",
+      "book_id": "BK-111",
+      "title": "Brave New World",
+      "member_name": "James P. Wilson",
+      "issue_date": "2026-05-14",
+      "due_date": "2026-05-28",
+      "return_date": "2026-05-26",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1063",
+      "book_id": "BK-109",
+      "title": "War and Peace",
+      "member_name": "William S. Thomas",
+      "issue_date": "2026-03-03",
+      "due_date": "2026-03-17",
+      "return_date": "2026-03-14",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1064",
+      "book_id": "BK-111",
+      "title": "Brave New World",
+      "member_name": "Sara M. Connor",
+      "issue_date": "2026-04-28",
+      "due_date": "2026-05-12",
+      "return_date": "2026-05-18",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1065",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-01-26",
+      "due_date": "2026-02-09",
+      "return_date": "2026-02-05",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1066",
+      "book_id": "BK-112",
+      "title": "Crime and Punishment",
+      "member_name": "Sara M. Connor",
+      "issue_date": "2026-02-03",
+      "due_date": "2026-02-17",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1067",
+      "book_id": "BK-110",
+      "title": "The Odyssey",
+      "member_name": "Emily L. Davis",
+      "issue_date": "2026-04-05",
+      "due_date": "2026-04-19",
+      "return_date": "2026-04-24",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1068",
+      "book_id": "BK-110",
+      "title": "The Odyssey",
+      "member_name": "Jennifer Walker",
+      "issue_date": "2026-06-30",
+      "due_date": "2026-07-14",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1069",
+      "book_id": "BK-117",
+      "title": "Frankenstein",
+      "member_name": "Jonathon A. Smith",
+      "issue_date": "2026-06-17",
+      "due_date": "2026-07-01",
+      "return_date": "2026-06-26",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1070",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Michael R. Johnson",
+      "issue_date": "2026-03-18",
+      "due_date": "2026-04-01",
+      "return_date": "2026-03-23",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1071",
+      "book_id": "BK-105",
+      "title": "The Catcher in the Rye",
+      "member_name": "James P. Wilson",
+      "issue_date": "2026-05-22",
+      "due_date": "2026-06-05",
+      "return_date": "2026-05-30",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1072",
+      "book_id": "BK-107",
+      "title": "Fahrenheit 451",
+      "member_name": "James P. Wilson",
+      "issue_date": "2026-03-29",
+      "due_date": "2026-04-12",
+      "return_date": "2026-04-08",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1073",
+      "book_id": "BK-103",
+      "title": "The Great Gatsby",
+      "member_name": "Patricia E. Jackson",
+      "issue_date": "2026-01-14",
+      "due_date": "2026-01-28",
+      "return_date": "2026-01-17",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1074",
+      "book_id": "BK-111",
+      "title": "Brave New World",
+      "member_name": "Michael R. Johnson",
+      "issue_date": "2026-01-01",
+      "due_date": "2026-01-15",
+      "return_date": "2026-01-11",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1075",
+      "book_id": "BK-115",
+      "title": "Wuthering Heights",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-02-11",
+      "due_date": "2026-02-25",
+      "return_date": "2026-03-02",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1076",
+      "book_id": "BK-104",
+      "title": "Pride and Prejudice",
+      "member_name": "Sara M. Connor",
+      "issue_date": "2026-01-03",
+      "due_date": "2026-01-17",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1077",
+      "book_id": "BK-105",
+      "title": "The Catcher in the Rye",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-06-26",
+      "due_date": "2026-07-10",
+      "return_date": null,
+      "status": "Issued"
+    },
+    {
+      "issue_id": "ISS-1078",
+      "book_id": "BK-119",
+      "title": "The Picture of Dorian Gray",
+      "member_name": "Elizabeth Lewis",
+      "issue_date": "2026-04-05",
+      "due_date": "2026-04-19",
+      "return_date": "2026-04-11",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1079",
+      "book_id": "BK-110",
+      "title": "The Odyssey",
+      "member_name": "Linda H. Anderson",
+      "issue_date": "2026-01-11",
+      "due_date": "2026-01-25",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1080",
+      "book_id": "BK-112",
+      "title": "Crime and Punishment",
+      "member_name": "David K. Miller",
+      "issue_date": "2026-01-11",
+      "due_date": "2026-01-25",
+      "return_date": "2026-01-16",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1081",
+      "book_id": "BK-118",
+      "title": "Dracula",
+      "member_name": "Patricia E. Jackson",
+      "issue_date": "2026-04-01",
+      "due_date": "2026-04-15",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1082",
+      "book_id": "BK-108",
+      "title": "Moby-Dick",
+      "member_name": "Emily L. Davis",
+      "issue_date": "2026-02-09",
+      "due_date": "2026-02-23",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1083",
+      "book_id": "BK-114",
+      "title": "Jane Eyre",
+      "member_name": "Jonathon A. Smith",
+      "issue_date": "2026-02-15",
+      "due_date": "2026-03-01",
+      "return_date": "2026-02-27",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1084",
+      "book_id": "BK-108",
+      "title": "Moby-Dick",
+      "member_name": "James P. Wilson",
+      "issue_date": "2026-04-16",
+      "due_date": "2026-04-30",
+      "return_date": "2026-04-21",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1085",
+      "book_id": "BK-102",
+      "title": "1984",
+      "member_name": "Barbara D. Harris",
+      "issue_date": "2026-04-08",
+      "due_date": "2026-04-22",
+      "return_date": "2026-04-24",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1086",
+      "book_id": "BK-110",
+      "title": "The Odyssey",
+      "member_name": "Jessica Taylor",
+      "issue_date": "2026-03-31",
+      "due_date": "2026-04-14",
+      "return_date": "2026-04-08",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1087",
+      "book_id": "BK-111",
+      "title": "Brave New World",
+      "member_name": "James P. Wilson",
+      "issue_date": "2026-04-13",
+      "due_date": "2026-04-27",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1088",
+      "book_id": "BK-112",
+      "title": "Crime and Punishment",
+      "member_name": "Daniel V. Clark",
+      "issue_date": "2026-03-13",
+      "due_date": "2026-03-27",
+      "return_date": "2026-04-01",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1089",
+      "book_id": "BK-101",
+      "title": "To Kill a Mockingbird",
+      "member_name": "Sarah M. Connor",
+      "issue_date": "2026-03-26",
+      "due_date": "2026-04-09",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1090",
+      "book_id": "BK-106",
+      "title": "The Hobbit",
+      "member_name": "Matthew Robinson",
+      "issue_date": "2026-03-08",
+      "due_date": "2026-03-22",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1091",
+      "book_id": "BK-102",
+      "title": "1984",
+      "member_name": "Sarah M. Connor",
+      "issue_date": "2026-03-09",
+      "due_date": "2026-03-23",
+      "return_date": "2026-03-22",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1092",
+      "book_id": "BK-114",
+      "title": "Jane Eyre",
+      "member_name": "Jennifer Walker",
+      "issue_date": "2026-03-22",
+      "due_date": "2026-04-05",
+      "return_date": null,
+      "status": "Overdue"
+    },
+    {
+      "issue_id": "ISS-1093",
+      "book_id": "BK-113",
+      "title": "The Lord of the Rings",
+      "member_name": "Matthew Robinson",
+      "issue_date": "2026-01-30",
+      "due_date": "2026-02-13",
+      "return_date": "2026-02-02",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1094",
+      "book_id": "BK-101",
+      "title": "To Kill a Mockingbird",
+      "member_name": "Daniel V. Clark",
+      "issue_date": "2026-04-22",
+      "due_date": "2026-05-06",
+      "return_date": null,
+      "status": "Lost"
+    },
+    {
+      "issue_id": "ISS-1095",
+      "book_id": "BK-107",
+      "title": "Fahrenheit 451",
+      "member_name": "Linda H. Anderson",
+      "issue_date": "2026-05-18",
+      "due_date": "2026-06-01",
+      "return_date": "2026-05-30",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1096",
+      "book_id": "BK-111",
+      "title": "Brave New World",
+      "member_name": "Sarah M. Connor",
+      "issue_date": "2026-06-09",
+      "due_date": "2026-06-23",
+      "return_date": "2026-06-20",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1097",
+      "book_id": "BK-110",
+      "title": "The Odyssey",
+      "member_name": "Patricia E. Jackson",
+      "issue_date": "2026-05-10",
+      "due_date": "2026-05-24",
+      "return_date": "2026-05-21",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1098",
+      "book_id": "BK-105",
+      "title": "The Catcher in the Rye",
+      "member_name": "David K. Miller",
+      "issue_date": "2026-05-22",
+      "due_date": "2026-06-05",
+      "return_date": "2026-06-05",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-1099",
+      "book_id": "BK-106",
+      "title": "The Hobbit",
+      "member_name": "Jennifer Walker",
+      "issue_date": "2026-06-23",
+      "due_date": "2026-07-07",
+      "return_date": "2026-06-30",
+      "status": "Returned"
+    },
+    {
+      "issue_id": "ISS-9999-TEMP",
+      "book_id": "BK-000-UNKNOWN",
+      "title": "UNREGISTERED_TITLE_ORPHANED_DATA",
+      "member_name": "GHOST_USER_99",
+      "issue_date": "1970-01-01",
+      "due_date": "1970-01-15",
+      "return_date": null,
+      "status": "Archived"
+    }
+  ]
