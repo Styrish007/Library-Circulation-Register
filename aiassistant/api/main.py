@@ -24,14 +24,18 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000","https://library-circulation-register.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 with open(
-    "book_issue_records.json",
+    BASE_DIR / "book_issue_records.json",
     "r",
     encoding="utf-8"
 ) as file:
