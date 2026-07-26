@@ -74,7 +74,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/ask",
+        "https://library-circulation-register-backend.onrender.com/ask",
         {
           method: "POST",
           headers: {
