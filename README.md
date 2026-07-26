@@ -1,6 +1,6 @@
 # Library Circulation Register
 
-**Live app:** https://library-circulation-register.vercel.app/       "The loading will be slow at first request because of Inactivity for a long time.Please Wait"
+**Live app:** https://library-circulation-register.vercel.app/       "The loading will be slow at first request because of Inactivity.Please Wait"
 
 ## Problem (in two lines)
 
