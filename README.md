@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Library Circulation Register
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live app:** https://library-circulation-register.vercel.app/       "The loading will be slow at first request because of Inactivity for a long time.Please Wait"
 
-## Available Scripts
+## Problem (in two lines)
 
-In the project directory, you can run:
+A public library tracks book issues and returns on paper cards, so nobody can tell at a glance which books are out, which are overdue, or which titles are actually in demand. This project replaces that with a digital register showing current loans, overdue days, and most-borrowed titles, plus a chat assistant to answer questions in plain language.
 
-### `npm start`
+## How It's Built
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React (`App.js`), deployed on Vercel. Reads circulation data from `book_issue_records.json` and renders the dashboard, table, search/filter, and record detail panel.
+- **Backend (AI Assistant):** FastAPI (`main.py`), deployed on Render. Receives a question, turns it into a structured query plan using the Groq API (`llama-3.3-70b-versatile`), executes that plan against the same JSON dataset in Python, and asks the model to phrase the calculated result as a natural-language answer. The model never invents or recalculates numbers — it only rephrases what Python already computed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Run
 
-### `npm test`
+### Option 1 — Use the deployed version
+Just open https://library-circulation-register.vercel.app/. The dashboard and table work immediately. For the AI assistant (the floating chat button), the Render backend must be awake — if it's been idle it may take ~30–50 seconds to respond to the first question (free-tier cold start).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Option 2 — Run locally
 
-### `npm run build`
+**Frontend**
+```bash
+git clone <your-repo-url>
+cd <repo-folder>/frontend
+npm install
+npm start
+```
+This runs on `http://localhost:3000` and expects `book_issue_records.json` and `message.png` to be in the `public/` folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Backend**
+```bash
+cd <repo-folder>/backend
+pip install fastapi uvicorn groq python-dotenv
+```
+Create a `.env` file in the backend folder:
+```
+GROQ_API_KEY=your_groq_api_key_here
+```
+Make sure `book_issue_records.json` sits next to `main.py` (the backend reads it directly, not through the frontend). Then run:
+```bash
+uvicorn main:app --reload
+```
+This starts the API on `http://localhost:8000`. Note: the deployed frontend currently points `askAssistant()` at the Render URL, not localhost — for full local testing you'd change that fetch URL to `http://localhost:8000/ask`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What Every Field Means
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Field | Meaning | Values |
+|---|---|---|
+| `issue_id` | Unique ID for this borrowing event | e.g. `"ISS001"` |
+| `book_id` | Unique ID for the physical/catalog book | e.g. `"BK014"` |
+| `title` | Book title | free text; may be missing → shown as "Unknown title" |
+| `member_name` | Name of the borrower | free text; may be missing → shown as "Unknown member"; some records intentionally have near-duplicate names to test fuzzy search |
+| `issue_date` | Date the book was handed out | `YYYY-MM-DD`; shown as "Unknown" if missing |
+| `due_date` | Date the book is expected back | `YYYY-MM-DD`; used to calculate overdue days |
+| `return_date` | Date the book was actually returned | `YYYY-MM-DD`, or empty/null if still out |
+| `status` | Current state of the record | `"issued"`, `"returned"`, or effectively `"overdue"` when a due date has passed with no return |
 
-### `npm run eject`
+## How the Derived Figure (Days Overdue) Is Calculated
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is the number the librarian acts on, so both frontend and backend calculate it the same way, independently, from raw dates:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. If `return_date` is already set → **0 days overdue** (it's back, overdue no longer applies).
+2. If `return_date` is empty and `due_date` is missing → the figure is treated as **unknown**, never shown as 0 or as a fabricated number.
+3. Otherwise:
+   ```
+   days_overdue = (today's date) − (due_date)
+   ```
+   measured in whole calendar days (time-of-day is zeroed out first so it's a clean day count).
+4. If that difference is negative or zero (not yet due) → **0 days overdue**.
+5. If positive → that count is shown as **"N DAYS OVERDUE"** in red on the record detail view, at the top, above the rest of the fields.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Dashboard cards use the same rule in aggregate:
+- **Currently Borrowed** = records with no `return_date`
+- **Overdue** = records where the above calculation returns more than 0
+- **Returned** = records with a `return_date` set
+- **Most Borrowed Titles** = count of how many times each `title` appears across all records, sorted highest first, top 5 shown
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Assistant — Supported Question Types
 
-## Learn More
+The assistant doesn't do free-form lookup; it maps your question into one of five operations, runs it in Python against the dataset, and phrases the result:
+- **count** — "How many books are overdue?"
+- **list** — "Which books does [member] have?"
+- **most_borrowed** — "What are the most borrowed titles?"
+- **search** — general lookups by title/member/book ID (with fuzzy/typo-tolerant matching)
+- **summary** — "Give me an overview of the library right now"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Input is normalized (lowercased, trimmed, punctuation stripped) before matching, and fuzzy string matching handles minor misspellings in titles or names.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## What Is Not Finished
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The assistant currently only tests intent-matching for the operations above in English; it doesn't reliably fall back to "I don't know" wording for fully out-of-scope questions beyond returning whatever the model produces from an empty/irrelevant result.
+- No authentication — anyone with the link can see all records; the "ask as two different members" isolation test isn't implemented (the assistant currently answers from the full dataset regardless of who's asking).
+- Backend is on Render's free tier, so the first request after inactivity is slow (cold start).
