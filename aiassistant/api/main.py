@@ -32,7 +32,7 @@ app.add_middleware(
 
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 with open(
     BASE_DIR / "book_issue_records.json",
